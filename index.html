@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="84ebb5af6367364afda848ad2f59a7f8.jpg" type="image/x-icon">
+    <title>NewRevision</title>
+</head>
+
+<body>
+  <div class="curzr" hidden>
+    <div class="curzr-dot"></div>
+  </div> 
+    <nav>
+     
+        <div class="container-nav" id="myLinks">
+          <div class="blur-bg"></div>
+        <ul class="list" >
+          <ul class="list  lister">
+            <li><a href="https://open.spotify.com/user/ccfocrwhimstwry0sqtyfz9lk" class="navs spotify fab fa-spotify">Spotify</a></li>
+           <li><a href="https://vk.com/holdar123" target="_blank" class="navs vk fab fa-vk">Vkontakte</a></li>
+          
+            
+          </ul>
+           
+            
+        </ul>
+      </div>
+      
+    </nav>
+    <div class="login">
+    <h2 class="active">Сontact me</h2>
+    <fom>
+      <input type="text" class="text"  name="user_name" >
+      <span>Name:</span>
+      <br>
+      <input type="text" class="text"  name="user_number" placeholder="+7 (000) 00 00 000">
+      <span>Phone number:</span>
+      <br>
+      <input type="email" class="text"  name="user_Email" >
+      <span>E-mail:</span>
+      <br>
+      <button class="sign" type="submit" id="myBtn">Send</button>
+    </fom>
+      <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Your mail successfully sended</p>
+        </div>
+      
+      </div>
+    
+  </div>
+
+
+
+  <div class="containers">
+    <div class="card">
+      <div class="face face1">
+        <div class="content">
+            <i class="fab fa-github"></i>
+          <h3>GitHub</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content">
+          <a href="https://github.com/HOLDAR123" target="_blank" type="button" class="buttoms" >Press to go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="face face1">
+        <div class="content">
+            <a href="" class="fab fa-steam sss"></a>
+          <h3>Steam</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content">
+          
+          <a href="https://steamcommunity.com/profiles/76561198201590230/" target="_blank"  type="button" class="buttoms">Press to go somewhere</a>
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="face face1">
+        <div class="content">
+            <a href="" class="fab fa-discord sss"></a>
+          <h3>Discord</h3>
+        </div>
+      </div>
+      <div class="face face2">
+        <div class="content">
+          
+          <a href="https://discordapp.com/users/476364910545207319/" type="button" target="_blank" class="buttoms">Press to go somewhere</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    
+    var modal = document.getElementById("myModal");
+    
+    
+    var btn = document.getElementById("myBtn");
+    
+    
+    var span = document.getElementsByClassName("close")[0];
+    
+    
+    btn.onclick = function() {
+      modal.style.display = "block";
+    }
+    
+    
+    span.onclick = function() {
+      modal.style.display = "none";
+    }
+    
+   
+    window.onclick = function(event) {
+      if (event.target == modal) {
+        modal.style.display = "none";
+      }
+    }
+    </script>
+  
+  <script src="https://kit.fontawesome.com/95a02bd20d.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
