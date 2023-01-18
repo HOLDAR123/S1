@@ -11,52 +11,27 @@ body{
   background-size: cover;
     font-family: 'Noto Sans', sans-serif;
     cursor: none;
+    transition: 1s;
 }
 button , input , a  {
   cursor: none;
 }
-
-.list{
-    list-style-type: none;
-    display: flex;
-    max-width: 400px;
-    justify-content: space-between;
-
-}
-
 nav{
-    height: 80px;
-    width: 100%;
-    margin: 0px -100px; 
-    
+  margin: 0px 250px;
+  width: 200px;
 }
+ul{
 
-.container-nav{
+  list-style-type: none;
+}
+.ser{
+  padding: 10px;
   display: flex;
-    justify-content: flex-end;
-    
-    
-}
-.navs{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    margin: 20px;
-    transition: 1s;
-    
-}
-.navs:hover{
-  font-size: 25px;
-  padding: 5px;
+  justify-content: center;
   border: 1px solid transparent;
   border-radius: 20px;
 }
-.spotify:hover{
-  color: green ;
-}
-.vk:hover{
-  color: #1161ed;
-}
+
 
 
 .login {
@@ -64,8 +39,9 @@ nav{
   height: 460px;
   width: 405px;
   margin: auto;
+  margin-top: 50px;
   padding: 60px 60px;
-  background: #222;
+  background: rgb(255, 253, 253);
   border: 1px solid transparent ;
   border-radius: 20px;
   box-shadow: 0px 30px 60px -5px #000;
@@ -76,9 +52,14 @@ form {
   padding-top: 60px;
 }
 .active {
+  margin-left: 13px;
+
   border-bottom: 2px solid #1161ed;
   display: flex ;
   justify-content: center;
+}
+span{
+  padding: 10px;
 }
 h2 {
   padding-left: 12px;
@@ -88,7 +69,7 @@ h2 {
   letter-spacing: 2px;
   display: inline-block;
   font-weight: 100;
-  color: white;;
+  color: rgb(0, 0, 0);;
 }
 h2:first-child {
   padding-left: 0px;
@@ -101,21 +82,22 @@ span {
   position: relative;
   top: -60px;
   left: 15px;
-  color: white;;
+  color: rgb(0, 0, 0);;
   transition: all 0.5s ease-in-out;
 }
 .text {
   width: 100%;
   height: 40px;
   border-radius: 20px;
-  background: rgba(255, 255, 255, 0.1);
-  border: 2px solid rgba(255, 255, 255, 0);
+  background: rgba(0, 0, 0, 0.1);
+  border: 2px solid rgba(0, 0, 0, 0);
   margin-top: 15px;
   transition: all 0.5s ease-in-out;
 }
 input {
-  color: #fff;
+  color: rgb(0, 0, 0);
   padding: 7px;
+  
 }
 label {
   display: inline-block;
@@ -123,13 +105,14 @@ label {
 }
 .sign {
   background-color: #1161ed;
-  color: #FFF;
+  color: rgb(0, 0, 0);
   width: 100%;
   padding: 10px 20px;
   display: block;
   height: 39px;
   border-radius: 20px;
   margin-top: 30px;
+  margin-left: 8px;
   transition: all 0.5s ease-in-out;
   border: none;
   text-transform: uppercase;
@@ -167,7 +150,7 @@ label {
   }
   .face1{
     position: relative;
-    background: #333;
+    background: rgb(230, 102, 102);
     display: flex;
     justify-content: center;
     align-content:center;
